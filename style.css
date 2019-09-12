@@ -37,6 +37,15 @@ img {
   margin-right: 15%;
 }
 
+#education-details {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .floyd {
   font-size: 25px;
+}
+
+a {
+  color: black;
 }
