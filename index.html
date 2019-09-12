@@ -2,16 +2,58 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Colton Kayser</h1>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	    <div class="container-fluid">
+		<!-- <a class="navbar-brand" href="#"><img src="portfolioname.png"></a> -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#bio">Bio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#skills">Technical Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Work Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Education</a>
+				</li>
+			</ul>
+	</div>
+</nav>
+    <div id="bio">
+    <h1 class="display-4 text-center">Colton Kayser</h1>
     <!-- Bio -->
-    <h4>I am a full-stack web developer that focuses on solving problems using efficiency and teamwork. As a music teacher for the past ten years, I’ve learned that communication is often the best way to tackle a problem, and that to teach is to learn. I not only bring the skills to code simple, effective solutions, but also the ability to bring the team together, and make success a group effort.</h4>
+    <div class="container-fluid">
+      <div class="row jumbotron">
+	       <div class="col-xs-15 col-sm-15 col-md-12 col-lg-12 col-xl-13">
+		<p class="lead">I am a full-stack web developer that focuses on solving problems using efficiency and teamwork. As I transition out of a career in Music Education, I’ve learned that communication is often the best way to tackle a problem, and that to teach is to learn. I not only bring the skills to code simple, effective solutions, but also the ability to bring the team together, and make success a group effort.</p>
+
+	       </div>
+
+        </div>
+        <hr class="my-4">
+        </div>
+        </div>
     <br />
     <!-- Technical Skills -->
-    <h2>Technical Skills</h2>
+    <h2 class="display-4 text-center" id="skills">Technical Skills</h2>
     <h3>Languages and Libraries</h3>
     <h4>Html, CSS, javaScript, jQuery, Ruby</h4>
     <h3>Frameworks</h3>
@@ -23,6 +65,7 @@
     <br />
     <!-- Projects -->
     <h2>Projects</h2>
+    <div class="container">
     <h3>8-bit Backlog</h3>
     <a href="https://coltonlog.herokuapp.com/"><img src="8bit.png"></a>
     <h3>The Chuck Norrizer</h3>
@@ -31,6 +74,7 @@
     <a href="https://nationalpark.herokuapp.com" target="_blank"><img src="natparks.png"></a>
     <h3>Gainz Tracker</h3>
     <a href="https://frozen-tor-60140.herokuapp.com/" target="_blank"><img src="gainz.png"></a>
+    </div>
     <!-- Work Experience -->
     <h2>Pre-Tech Experience</h2>
     <h3>Colton Kayser Music LLC<span class="bold"> Monmouth Beach, NJ 2013 - Current</span> </h3>
@@ -61,5 +105,10 @@
       <a href="https://github.com/ColtonKayser">Github</a>
     </footer>
 
+
+    <!-- bootscrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
