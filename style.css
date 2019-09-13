@@ -49,3 +49,7 @@ img {
 a {
   color: black;
 }
+
+.nav-item {
+  font-size: 20px;
+}
